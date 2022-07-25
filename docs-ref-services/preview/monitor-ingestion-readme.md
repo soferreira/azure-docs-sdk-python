@@ -3,12 +3,12 @@ title: Azure Monitor Ingestion client library for Python
 keywords: Azure, python, SDK, API, azure-monitor-ingestion, monitor
 author: lmazuel
 ms.author: lmazuel
-ms.date: 07/15/2022
+ms.date: 07/25/2022
 ms.topic: reference
 ms.devlang: python
 ms.service: monitor
 ---
-# Azure Monitor Ingestion client library for Python - version 1.0.0b1 
+# Azure Monitor Ingestion client library for Python - version 1.0.0a20220725001 
 
 
 The Azure Monitor Ingestion client library is used to send custom logs to [Azure Monitor][azure_monitor_overview].
@@ -174,7 +174,7 @@ The following code samples show common scenarios with the Azure Monitor Ingestio
 
 #### Logs Ingestion samples
 
-- [Upload a list of logs](https://github.com/Azure/azure-sdk-for-python/blob/azure-monitor-ingestion_1.0.0b1/sdk/monitor/azure-monitor-ingestion/samples/sample_send_small_logs.py) ([async sample](https://github.com/Azure/azure-sdk-for-python/blob/azure-monitor-ingestion_1.0.0b1/sdk/monitor/azure-monitor-ingestion/samples/async_samples/sample_send_small_logs_async.py))
+- [Upload a list of logs](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/monitor/azure-monitor-ingestion/samples/sample_send_small_logs.py) ([async sample](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/monitor/azure-monitor-ingestion/samples/async_samples/sample_send_small_logs_async.py))
 
 ## Contributing
 
@@ -190,13 +190,13 @@ This project has adopted the [Microsoft Open Source Code of Conduct][code_of_con
 [azure_core_ref_docs]: https://aka.ms/azsdk/python/core/docs
 [azure_monitor_overview]: /azure/azure-monitor/
 [azure_subscription]: https://azure.microsoft.com/free/python/
-[changelog]: https://github.com/Azure/azure-sdk-for-python/tree/azure-monitor-ingestion_1.0.0b1/sdk/monitor/azure-monitor-ingestion/CHANGELOG.md
+[changelog]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/monitor/azure-monitor-ingestion/CHANGELOG.md
 [package]: https://aka.ms/azsdk-python-monitor-ingestion-pypi
 [pip]: https://pypi.org/project/pip/
 [python_logging]: https://docs.python.org/3/library/logging.html
 [python-ingestion-ref-docs]: https://aka.ms/azsdk/python/monitor-ingestion/docs
-[samples]: https://github.com/Azure/azure-sdk-for-python/tree/azure-monitor-ingestion_1.0.0b1/sdk/monitor/azure-monitor-ingestion/samples
-[source]: https://github.com/Azure/azure-sdk-for-python/blob/azure-monitor-ingestion_1.0.0b1/sdk/monitor/azure-monitor-ingestion/
+[samples]: https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/monitor/azure-monitor-ingestion/samples
+[source]: https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/monitor/azure-monitor-ingestion/
 [data_collection_endpoint]: //azure/azure-monitor/essentials/data-collection-endpoint-overview
 [data_collection_rule]: /azure/azure-monitor/essentials/data-collection-rule-overview
 
