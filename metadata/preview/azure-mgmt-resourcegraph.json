@@ -1,0 +1,14 @@
+{
+  "Name": "azure-mgmt-resourcegraph",
+  "Version": "8.1.0a20220725001",
+  "DevVersion": "8.1.0a20220725001",
+  "DirectoryPath": "sdk/resources/azure-mgmt-resourcegraph",
+  "ServiceDirectory": "resources",
+  "ReadMePath": "sdk/resources/azure-mgmt-resourcegraph/README.md",
+  "ChangeLogPath": "sdk/resources/azure-mgmt-resourcegraph/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "mgmt",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-mgmt-resourcegraph",
+  "ReleaseStatus": "2021-04-25"
+}
