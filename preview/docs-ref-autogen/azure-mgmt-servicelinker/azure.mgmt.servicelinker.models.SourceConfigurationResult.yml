@@ -14,4 +14,4 @@ variables:
 - description: The configuration properties for source resource.
   name: configurations
   types:
-  - <xref:list>[<xref:microsoft_service_linker.models.SourceConfiguration>]
+  - <xref:list>[<xref:azure.mgmt.servicelinker.models.SourceConfiguration>]

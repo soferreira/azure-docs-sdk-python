@@ -11,6 +11,7 @@ classes:
 - azure.communication.phonenumbers.PurchasedPhoneNumber
 packages:
 - azure.communication.phonenumbers.aio
+- azure.communication.phonenumbers.siprouting
 enums:
 - azure.communication.phonenumbers.BillingFrequency
 - azure.communication.phonenumbers.PhoneNumberAssignmentType

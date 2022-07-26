@@ -13,9 +13,9 @@ summary: 'EventGrid Domain.
 
   All required parameters must be populated in order to send to Azure.'
 constructor:
-  syntax: 'Domain(*, location: str, tags: Optional[Dict[str, str]] = None, sku: Optional[azure.mgmt.eventgrid.models._models_py3.ResourceSku]
-    = None, identity: Optional[azure.mgmt.eventgrid.models._models_py3.IdentityInfo]
-    = None, input_schema: Optional[Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.InputSchema]]
+  syntax: 'Domain(*, location: str, tags: Optional[Dict[str, str]] = None, identity:
+    Optional[azure.mgmt.eventgrid.models._models_py3.IdentityInfo] = None, input_schema:
+    Optional[Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.InputSchema]]
     = None, input_schema_mapping: Optional[azure.mgmt.eventgrid.models._models_py3.InputSchemaMapping]
     = None, public_network_access: Optional[Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.PublicNetworkAccess]]
     = None, inbound_ip_rules: Optional[List[azure.mgmt.eventgrid.models._models_py3.InboundIpRule]]
@@ -44,18 +44,14 @@ variables:
   name: tags
   types:
   - <xref:dict>[<xref:str>, <xref:str>]
-- description: The Sku pricing tier for the Event Grid Domain resource.
-  name: sku
-  types:
-  - <xref:azure.mgmt.eventgrid.models.ResourceSku>
-- description: Identity information for the Event Grid Domain resource.
-  name: identity
-  types:
-  - <xref:azure.mgmt.eventgrid.models.IdentityInfo>
 - description: The system metadata relating to the Event Grid Domain resource.
   name: system_data
   types:
   - <xref:azure.mgmt.eventgrid.models.SystemData>
+- description: Identity information for the Event Grid Domain resource.
+  name: identity
+  types:
+  - <xref:azure.mgmt.eventgrid.models.IdentityInfo>
 - description: List of private endpoint connections.
   name: private_endpoint_connections
   types:

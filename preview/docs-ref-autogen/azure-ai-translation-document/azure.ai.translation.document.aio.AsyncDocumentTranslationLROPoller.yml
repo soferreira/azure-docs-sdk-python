@@ -17,18 +17,6 @@ constructor:
   - name: initial_response
   - name: deserialization_callback
   - name: polling_method
-methods:
-- uid: azure.ai.translation.document.aio.AsyncDocumentTranslationLROPoller.from_continuation_token
-  name: from_continuation_token
-  signature: 'from_continuation_token(polling_method: azure.ai.translation.document.aio._async_polling.AsyncDocumentTranslationLROPollingMethod,
-    continuation_token: str, **kwargs: Any) -> azure.ai.translation.document.aio._async_polling.AsyncDocumentTranslationLROPoller'
-  parameters:
-  - name: cls
-    isRequired: true
-  - name: polling_method
-    isRequired: true
-  - name: continuation_token
-    isRequired: true
 attributes:
 - uid: azure.ai.translation.document.aio.AsyncDocumentTranslationLROPoller.details
   name: details

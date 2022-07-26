@@ -17,4 +17,4 @@ variables:
 - description: The list of Linkers.
   name: value
   types:
-  - <xref:list>[<xref:microsoft_service_linker.models.LinkerResource>]
+  - <xref:list>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]

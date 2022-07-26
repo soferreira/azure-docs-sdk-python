@@ -39,8 +39,8 @@ methods:
     Delete a specific private endpoint connection under a topic, domain, or partner
     namespace.'
   signature: 'async begin_delete(resource_group_name: str, parent_type: Union[str,
-    azure.mgmt.eventgrid.models._event_grid_management_client_enums.ParentType], parent_name:
-    str, private_endpoint_connection_name: str, **kwargs: Any) -> azure.core.polling._async_poller.AsyncLROPoller[None]'
+    azure.mgmt.eventgrid.models._event_grid_management_client_enums.PrivateEndpointConnectionsParentType],
+    parent_name: str, private_endpoint_connection_name: str, **kwargs: Any) -> azure.core.polling._async_poller.AsyncLROPoller[None]'
   parameters:
   - name: resource_group_name
     description: The name of the resource group within the user's subscription.
@@ -54,7 +54,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-    - <xref:azure.mgmt.eventgrid.models.ParentType>
+    - <xref:azure.mgmt.eventgrid.models.PrivateEndpointConnectionsParentType>
   - name: parent_name
     description: 'The name of the parent resource (namely, either, the topic name,
       domain
@@ -110,9 +110,10 @@ methods:
     Update a specific private endpoint connection under a topic, domain or partner
     namespace.'
   signature: 'async begin_update(resource_group_name: str, parent_type: Union[str,
-    azure.mgmt.eventgrid.models._event_grid_management_client_enums.ParentType], parent_name:
-    str, private_endpoint_connection_name: str, private_endpoint_connection: azure.mgmt.eventgrid.models._models_py3.PrivateEndpointConnection,
-    **kwargs: Any) -> azure.core.polling._async_poller.AsyncLROPoller[azure.mgmt.eventgrid.models._models_py3.PrivateEndpointConnection]'
+    azure.mgmt.eventgrid.models._event_grid_management_client_enums.PrivateEndpointConnectionsParentType],
+    parent_name: str, private_endpoint_connection_name: str, private_endpoint_connection:
+    azure.mgmt.eventgrid.models._models_py3.PrivateEndpointConnection, **kwargs: Any)
+    -> azure.core.polling._async_poller.AsyncLROPoller[azure.mgmt.eventgrid.models._models_py3.PrivateEndpointConnection]'
   parameters:
   - name: resource_group_name
     description: The name of the resource group within the user's subscription.
@@ -126,7 +127,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-    - <xref:azure.mgmt.eventgrid.models.ParentType>
+    - <xref:azure.mgmt.eventgrid.models.PrivateEndpointConnectionsParentType>
   - name: parent_name
     description: 'The name of the parent resource (namely, either, the topic name,
       domain
@@ -187,7 +188,7 @@ methods:
 
 
     Get a specific private endpoint connection under a topic, domain, or partner namespace.'
-  signature: 'async get(resource_group_name: str, parent_type: Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.ParentType],
+  signature: 'async get(resource_group_name: str, parent_type: Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.PrivateEndpointConnectionsParentType],
     parent_name: str, private_endpoint_connection_name: str, **kwargs: Any) -> azure.mgmt.eventgrid.models._models_py3.PrivateEndpointConnection'
   parameters:
   - name: resource_group_name
@@ -202,7 +203,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-    - <xref:azure.mgmt.eventgrid.models.ParentType>
+    - <xref:azure.mgmt.eventgrid.models.PrivateEndpointConnectionsParentType>
   - name: parent_name
     description: 'The name of the parent resource (namely, either, the topic name,
       domain
@@ -234,7 +235,7 @@ methods:
 
 
     Get all private endpoint connections under a topic, domain, or partner namespace.'
-  signature: 'list_by_resource(resource_group_name: str, parent_type: Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.ParentType],
+  signature: 'list_by_resource(resource_group_name: str, parent_type: Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.PrivateEndpointConnectionsParentType],
     parent_name: str, filter: Optional[str] = None, top: Optional[int] = None, **kwargs:
     Any) -> AsyncIterable[azure.mgmt.eventgrid.models._models_py3.PrivateEndpointConnectionListResult]'
   parameters:
@@ -250,7 +251,7 @@ methods:
     isRequired: true
     types:
     - <xref:str>
-    - <xref:azure.mgmt.eventgrid.models.ParentType>
+    - <xref:azure.mgmt.eventgrid.models.PrivateEndpointConnectionsParentType>
   - name: parent_name
     description: 'The name of the parent resource (namely, either, the topic name,
       domain

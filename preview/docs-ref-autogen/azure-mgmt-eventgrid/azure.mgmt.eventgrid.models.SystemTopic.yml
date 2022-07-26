@@ -37,14 +37,14 @@ variables:
   name: tags
   types:
   - <xref:dict>[<xref:str>, <xref:str>]
-- description: The system metadata relating to System Topic resource.
-  name: system_data
-  types:
-  - <xref:azure.mgmt.eventgrid.models.SystemData>
 - description: Identity information for the resource.
   name: identity
   types:
   - <xref:azure.mgmt.eventgrid.models.IdentityInfo>
+- description: The system metadata relating to System Topic resource.
+  name: system_data
+  types:
+  - <xref:azure.mgmt.eventgrid.models.SystemData>
 - description: 'Provisioning state of the system topic. Possible values include:
 
     "Creating", "Updating", "Deleting", "Succeeded", "Canceled", "Failed".'
