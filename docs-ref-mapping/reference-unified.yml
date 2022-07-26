@@ -153,6 +153,14 @@
         href: ~/docs-ref-services/{moniker}/mgmt-automation-readme.md
         children:
         - azure-mgmt-automation
+  - name: Autosuggest
+    href: ~/docs-ref-services/{moniker}/autosuggest.md
+    landingPageType: Service
+    items:
+    - name: Autosuggest
+      href: ~/docs-ref-services/{moniker}/cognitiveservices-search-autosuggest-readme.md
+      children:
+      - azure-cognitiveservices-search-autosuggest
   - name: Azure AD B2C
     href: ~/docs-ref-services/{moniker}/azure-ad-b2c.md
     landingPageType: Service
