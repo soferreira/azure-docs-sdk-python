@@ -1,19 +1,18 @@
 ---
-title: Azure Authorization libraries for python
-description: Reference for Azure Authorization libraries for python
-keywords: Azure, python, SDK, API, Authorization
-author: lisawong19
-ms.author: ramyar
-manager: routlaw
-
-ms.date: 02/21/2018
+author: lmazuel
+ms.service: authorization
+title: Azure Authorization SDK for Python
+ms.devlang: python
+description: Reference for Azure Authorization SDK for Python
 ms.topic: reference
+ms.author: lmazuel
+ms.data: 07/25/2022
 ms.prod: azure
 ms.technology: azure
-ms.devlang: python
-ms.service: multiple
+manager: routlaw
+ms.date: 02/21/2018
+keywords: Azure, python, SDK, API, Authorization
 ---
-
 # Azure Authorization libraries for python
 
 ## [Management API](/python/api/overview/azure/authorization/management)

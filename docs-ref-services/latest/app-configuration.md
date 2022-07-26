@@ -1,12 +1,12 @@
 ---
-ms.devlang: python
-ms.topic: reference
-ms.author: xiangyan
 author: xiangyan99
 ms.service: appconfiguration
-description: Reference for Azure App Configuration SDK for Python
 title: Azure App Configuration SDK for Python
-ms.data: 07/22/2022
+ms.devlang: python
+description: Reference for Azure App Configuration SDK for Python
+ms.topic: reference
+ms.author: xiangyan
+ms.data: 07/25/2022
 ---
 # Azure App Configuration SDK for Python - latest
 

@@ -469,8 +469,8 @@
         "folder": "azure-mgmt-containerservice",
         "install_type": "pypi",
         "name": "azure-mgmt-containerservice",
-        "extra_index_url": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple/",
-        "version": "==20.1.0"
+        "version": "==20.2.0",
+        "extra_index_url": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple/"
       },
       "exclude_path": [
         "test*",
