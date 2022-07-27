@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-cosmosdb",
-  "Version": "7.0.0b6",
-  "DevVersion": null,
+  "Version": "7.0.0a20220726002",
+  "DevVersion": "7.0.0a20220726002",
   "DirectoryPath": "sdk/cosmos/azure-mgmt-cosmosdb",
   "ServiceDirectory": "cosmos",
   "ReadMePath": "sdk/cosmos/azure-mgmt-cosmosdb/README.md",
@@ -10,5 +10,5 @@
   "SdkType": "mgmt",
   "IsNewSdk": true,
   "ArtifactName": "azure-mgmt-cosmosdb",
-  "ReleaseStatus": "2022-05-23"
+  "ReleaseStatus": "2022-07-22"
 }
