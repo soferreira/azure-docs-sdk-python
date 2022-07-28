@@ -1,19 +1,17 @@
 ---
-title: Azure Data Factory libraries for Python
-description: Reference for  Azure Data Factory libraries for Python
-author: ramya-rao-a
-ms.author: ramyar
-manager: angerobe
-
-ms.date: 05/10/2018
+author: hvermis
+ms.service: datafactory
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: python
-ms.service: multiple
+ms.author: hvermis
+ms.data: 07/28/2022
+description: Reference for Azure Data Factory SDK for Python
+title: Azure Data Factory SDK for Python
+ms.technology: azure
+ms.date: 05/10/2018
+ms.prod: azure
+manager: angerobe
 ---
-
-
 # Azure Data Factory libraries for Python
 
 Compose data storage, movement, and processing services into automated data pipelines with [Azure Data Factory](/azure/data-factory/)

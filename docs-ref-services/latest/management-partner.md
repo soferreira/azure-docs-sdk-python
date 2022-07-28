@@ -1,12 +1,12 @@
 ---
-title: Azure Management Partner SDK for Python
-ms.service: managementpartner
-ms.author: lmazuel
-ms.topic: reference
 author: lmazuel
+ms.service: managementpartner
+ms.topic: reference
 ms.devlang: python
+ms.author: lmazuel
+ms.data: 07/28/2022
 description: Reference for Azure Management Partner SDK for Python
-ms.data: 07/27/2022
+title: Azure Management Partner SDK for Python
 ---
 # Azure Management Partner SDK for Python - latest
 
