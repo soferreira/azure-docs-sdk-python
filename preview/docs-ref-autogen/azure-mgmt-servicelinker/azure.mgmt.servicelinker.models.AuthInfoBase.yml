@@ -27,4 +27,4 @@ variables:
   name: auth_type
   types:
   - <xref:str>
-  - <xref:microsoft_service_linker.models.AuthType>
+  - <xref:azure.mgmt.servicelinker.models.AuthType>

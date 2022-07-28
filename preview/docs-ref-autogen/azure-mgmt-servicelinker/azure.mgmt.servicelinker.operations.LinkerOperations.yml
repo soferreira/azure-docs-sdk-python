@@ -55,7 +55,7 @@ methods:
     description: Linker details.
     isRequired: true
     types:
-    - <xref:microsoft_service_linker.models.LinkerResource>
+    - <xref:azure.mgmt.servicelinker.models.LinkerResource>
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -87,7 +87,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:microsoft_service_linker.models.LinkerResource>]
+    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.begin_delete
@@ -164,7 +164,7 @@ methods:
     description: Linker details.
     isRequired: true
     types:
-    - <xref:microsoft_service_linker.models.LinkerPatch>
+    - <xref:azure.mgmt.servicelinker.models.LinkerPatch>
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -196,14 +196,14 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:microsoft_service_linker.models.LinkerResource>]
+    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicelinker.models.LinkerResource>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.begin_validate
   name: begin_validate
   summary: Validate a link.
   signature: 'begin_validate(resource_uri: str, linker_name: str, **kwargs: Any) ->
-    azure.core.polling._poller.LROPoller[azure.mgmt.servicelinker.models._models_py3.ValidateResult]'
+    azure.core.polling._poller.LROPoller[azure.mgmt.servicelinker.models._models_py3.ValidateOperationResult]'
   parameters:
   - name: resource_uri
     description: 'The fully qualified Azure Resource manager identifier of the resource
@@ -244,12 +244,12 @@ methods:
     types:
     - <xref:int>
   return:
-    description: 'An instance of LROPoller that returns either ValidateResult or the
-      result of
+    description: 'An instance of LROPoller that returns either ValidateOperationResult
+      or the result of
 
       cls(response)'
     types:
-    - <xref:azure.core.polling.LROPoller>[<xref:microsoft_service_linker.models.ValidateResult>]
+    - <xref:azure.core.polling.LROPoller>[<xref:azure.mgmt.servicelinker.models.ValidateOperationResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.get
@@ -277,7 +277,7 @@ methods:
   return:
     description: LinkerResource, or the result of cls(response)
     types:
-    - <xref:microsoft_service_linker.models.LinkerResource>
+    - <xref:azure.mgmt.servicelinker.models.LinkerResource>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.list
@@ -300,7 +300,7 @@ methods:
   return:
     description: An iterator like instance of either LinkerList or the result of cls(response)
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:microsoft_service_linker.models.LinkerList>]
+    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.servicelinker.models.LinkerList>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.servicelinker.operations.LinkerOperations.list_configurations
@@ -329,7 +329,7 @@ methods:
   return:
     description: SourceConfigurationResult, or the result of cls(response)
     types:
-    - <xref:microsoft_service_linker.models.SourceConfigurationResult>
+    - <xref:azure.mgmt.servicelinker.models.SourceConfigurationResult>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

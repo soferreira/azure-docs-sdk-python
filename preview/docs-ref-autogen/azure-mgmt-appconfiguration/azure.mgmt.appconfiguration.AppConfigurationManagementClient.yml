@@ -21,8 +21,15 @@ constructor:
     types:
     - <xref:str>
   - name: base_url
-    description: Service URL. Default value is '[https://management.azure.com](https://management.azure.com)'.
+    description: Service URL. Default value is "[https://management.azure.com](https://management.azure.com)".
     defaultValue: https://management.azure.com
+    types:
+    - <xref:str>
+  - name: api_version
+    description: 'Api Version. Default value is "2022-05-01". Note that overriding
+      this
+
+      default value may result in unsupported behavior.'
     types:
     - <xref:str>
   - name: polling_interval
@@ -35,23 +42,23 @@ variables:
 - description: ConfigurationStoresOperations operations
   name: configuration_stores
   types:
-  - <xref:app_configuration_management_client.operations.ConfigurationStoresOperations>
+  - <xref:azure.mgmt.appconfiguration.operations.ConfigurationStoresOperations>
 - description: Operations operations
   name: operations
   types:
-  - <xref:app_configuration_management_client.operations.Operations>
+  - <xref:azure.mgmt.appconfiguration.operations.Operations>
 - description: PrivateEndpointConnectionsOperations operations
   name: private_endpoint_connections
   types:
-  - <xref:app_configuration_management_client.operations.PrivateEndpointConnectionsOperations>
+  - <xref:azure.mgmt.appconfiguration.operations.PrivateEndpointConnectionsOperations>
 - description: PrivateLinkResourcesOperations operations
   name: private_link_resources
   types:
-  - <xref:app_configuration_management_client.operations.PrivateLinkResourcesOperations>
+  - <xref:azure.mgmt.appconfiguration.operations.PrivateLinkResourcesOperations>
 - description: KeyValuesOperations operations
   name: key_values
   types:
-  - <xref:app_configuration_management_client.operations.KeyValuesOperations>
+  - <xref:azure.mgmt.appconfiguration.operations.KeyValuesOperations>
 methods:
 - uid: azure.mgmt.appconfiguration.AppConfigurationManagementClient.close
   name: close

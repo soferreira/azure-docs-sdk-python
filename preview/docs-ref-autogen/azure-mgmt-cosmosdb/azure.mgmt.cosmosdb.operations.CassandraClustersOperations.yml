@@ -5,31 +5,11 @@ fullName: azure.mgmt.cosmosdb.operations.CassandraClustersOperations
 module: azure.mgmt.cosmosdb.operations
 inheritances:
 - builtins.object
-summary: 'CassandraClustersOperations operations.
-
-
-  You should not instantiate this class directly. Instead, you should create a Client
-  instance that
-
-  instantiates it for you and attaches it as an attribute.'
+summary: "> [!WARNING]\n> DO NOT instantiate this class directly.\n>\n> \n>\n> Instead,\
+  \ you should access the following operations through\n>\n> <xref:azure.mgmt.cosmosdb.CosmosDBManagementClient>'s\n\
+  >\n> <xref:cassandra_clusters> attribute.\n>"
 constructor:
-  syntax: CassandraClustersOperations(client, config, serializer, deserializer)
-  parameters:
-  - name: client
-    description: Client for service requests.
-    isRequired: true
-  - name: config
-    description: Configuration of service client.
-    isRequired: true
-  - name: serializer
-    description: An object model serializer.
-    isRequired: true
-  - name: deserializer
-    description: An object model deserializer.
-    isRequired: true
-variables:
-- description: Alias to model classes used in this operation group.
-  name: models
+  syntax: CassandraClustersOperations(*args, **kwargs)
 methods:
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.begin_create_update
   name: begin_create_update
@@ -379,65 +359,6 @@ methods:
     description: ClusterResource, or the result of cls(response)
     types:
     - <xref:azure.mgmt.cosmosdb.models.ClusterResource>
-  exceptions:
-  - type: azure.core.exceptions.HttpResponseError
-- uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.get_backup
-  name: get_backup
-  summary: Get the properties of an individual backup of this cluster that is available
-    to restore.
-  signature: 'get_backup(resource_group_name: str, cluster_name: str, backup_id: str,
-    **kwargs: Any) -> azure.mgmt.cosmosdb.models._models_py3.BackupResource'
-  parameters:
-  - name: resource_group_name
-    description: The name of the resource group. The name is case insensitive.
-    isRequired: true
-    types:
-    - <xref:str>
-  - name: cluster_name
-    description: Managed Cassandra cluster name.
-    isRequired: true
-    types:
-    - <xref:str>
-  - name: backup_id
-    description: Id of a restorable backup of a Cassandra cluster.
-    isRequired: true
-    types:
-    - <xref:str>
-  - name: cls
-    description: A custom type or function that will be passed the direct response
-    types:
-    - <xref:callable>
-  return:
-    description: BackupResource, or the result of cls(response)
-    types:
-    - <xref:azure.mgmt.cosmosdb.models.BackupResource>
-  exceptions:
-  - type: azure.core.exceptions.HttpResponseError
-- uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.list_backups
-  name: list_backups
-  summary: List the backups of this cluster that are available to restore.
-  signature: 'list_backups(resource_group_name: str, cluster_name: str, **kwargs:
-    Any) -> Iterable[azure.mgmt.cosmosdb.models._models_py3.ListBackups]'
-  parameters:
-  - name: resource_group_name
-    description: The name of the resource group. The name is case insensitive.
-    isRequired: true
-    types:
-    - <xref:str>
-  - name: cluster_name
-    description: Managed Cassandra cluster name.
-    isRequired: true
-    types:
-    - <xref:str>
-  - name: cls
-    description: A custom type or function that will be passed the direct response
-    types:
-    - <xref:callable>
-  return:
-    description: An iterator like instance of either ListBackups or the result of
-      cls(response)
-    types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.cosmosdb.models.ListBackups>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.operations.CassandraClustersOperations.list_by_resource_group

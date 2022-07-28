@@ -43,7 +43,7 @@ methods:
       availability request.'
     isRequired: true
     types:
-    - <xref:app_configuration_management_client.models.CheckNameAvailabilityParameters>
+    - <xref:azure.mgmt.appconfiguration.models.CheckNameAvailabilityParameters>
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -51,7 +51,7 @@ methods:
   return:
     description: NameAvailabilityStatus, or the result of cls(response)
     types:
-    - <xref:app_configuration_management_client.models.NameAvailabilityStatus>
+    - <xref:azure.mgmt.appconfiguration.models.NameAvailabilityStatus>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appconfiguration.operations.Operations.list
@@ -69,7 +69,7 @@ methods:
       element will include a skipToken parameter that specifies a starting point to
       use for
 
-      subsequent calls.'
+      subsequent calls. Default value is None.'
     isRequired: true
     types:
     - <xref:str>
@@ -83,7 +83,7 @@ methods:
 
       cls(response)'
     types:
-    - <xref:azure.core.paging.ItemPaged>[<xref:app_configuration_management_client.models.OperationDefinitionListResult>]
+    - <xref:azure.core.paging.ItemPaged>[<xref:azure.mgmt.appconfiguration.models.OperationDefinitionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appconfiguration.operations.Operations.regional_check_name_availability
@@ -104,7 +104,7 @@ methods:
       availability request.'
     isRequired: true
     types:
-    - <xref:app_configuration_management_client.models.CheckNameAvailabilityParameters>
+    - <xref:azure.mgmt.appconfiguration.models.CheckNameAvailabilityParameters>
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -112,7 +112,7 @@ methods:
   return:
     description: NameAvailabilityStatus, or the result of cls(response)
     types:
-    - <xref:app_configuration_management_client.models.NameAvailabilityStatus>
+    - <xref:azure.mgmt.appconfiguration.models.NameAvailabilityStatus>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

@@ -62,7 +62,7 @@ methods:
     description: The private endpoint connection properties.
     isRequired: true
     types:
-    - <xref:app_configuration_management_client.models.PrivateEndpointConnection>
+    - <xref:azure.mgmt.appconfiguration.models.PrivateEndpointConnection>
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -94,7 +94,7 @@ methods:
 
       result of cls(response)'
     types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:app_configuration_management_client.models.PrivateEndpointConnection>]
+    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.appconfiguration.models.PrivateEndpointConnection>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appconfiguration.aio.operations.PrivateEndpointConnectionsOperations.begin_delete
@@ -183,7 +183,7 @@ methods:
   return:
     description: PrivateEndpointConnection, or the result of cls(response)
     types:
-    - <xref:app_configuration_management_client.models.PrivateEndpointConnection>
+    - <xref:azure.mgmt.appconfiguration.models.PrivateEndpointConnection>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appconfiguration.aio.operations.PrivateEndpointConnectionsOperations.list_by_configuration_store
@@ -214,7 +214,7 @@ methods:
 
       of cls(response)'
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:app_configuration_management_client.models.PrivateEndpointConnectionListResult>]
+    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appconfiguration.models.PrivateEndpointConnectionListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

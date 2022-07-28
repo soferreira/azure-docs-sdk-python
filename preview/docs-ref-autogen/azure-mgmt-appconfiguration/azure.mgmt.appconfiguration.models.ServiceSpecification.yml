@@ -14,8 +14,8 @@ variables:
 - description: Specifications of the Log for Azure Monitoring.
   name: log_specifications
   types:
-  - <xref:list>[<xref:app_configuration_management_client.models.LogSpecification>]
+  - <xref:list>[<xref:azure.mgmt.appconfiguration.models.LogSpecification>]
 - description: Specifications of the Metrics for Azure Monitoring.
   name: metric_specifications
   types:
-  - <xref:list>[<xref:app_configuration_management_client.models.MetricSpecification>]
+  - <xref:list>[<xref:azure.mgmt.appconfiguration.models.MetricSpecification>]

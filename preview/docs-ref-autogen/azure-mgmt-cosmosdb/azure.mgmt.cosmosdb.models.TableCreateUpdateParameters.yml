@@ -13,10 +13,8 @@ summary: 'Parameters to create and update Cosmos DB Table.
 
   All required parameters must be populated in order to send to Azure.'
 constructor:
-  syntax: 'TableCreateUpdateParameters(*, resource: azure.mgmt.cosmosdb.models._models_py3.TableResource,
-    location: Optional[str] = None, tags: Optional[Dict[str, str]] = None, identity:
-    Optional[azure.mgmt.cosmosdb.models._models_py3.ManagedServiceIdentity] = None,
-    options: Optional[azure.mgmt.cosmosdb.models._models_py3.CreateUpdateOptions]
+  syntax: 'TableCreateUpdateParameters(*, resource: _models.TableResource, location:
+    Optional[str] = None, tags: Optional[Dict[str, str]] = None, options: Optional[_models.CreateUpdateOptions]
     = None, **kwargs)'
 variables:
 - description: The unique resource identifier of the ARM resource.
@@ -54,10 +52,6 @@ variables:
   name: tags
   types:
   - <xref:dict>[<xref:str>, <xref:str>]
-- description: Identity for the resource.
-  name: identity
-  types:
-  - <xref:azure.mgmt.cosmosdb.models.ManagedServiceIdentity>
 - description: Required. The standard JSON format of a Table.
   name: resource
   types:

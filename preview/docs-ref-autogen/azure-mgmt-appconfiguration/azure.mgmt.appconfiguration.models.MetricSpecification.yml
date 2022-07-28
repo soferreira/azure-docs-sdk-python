@@ -42,7 +42,7 @@ variables:
 - description: Dimensions of the metric.
   name: dimensions
   types:
-  - <xref:list>[<xref:app_configuration_management_client.models.MetricDimension>]
+  - <xref:list>[<xref:azure.mgmt.appconfiguration.models.MetricDimension>]
 - description: 'Optional. If set to true, then zero will be returned for time
 
     duration where no metric is emitted/published.'

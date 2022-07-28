@@ -24,4 +24,4 @@ variables:
   name: type
   types:
   - <xref:str>
-  - <xref:app_configuration_management_client.models.ConfigurationResourceType>
+  - <xref:azure.mgmt.appconfiguration.models.ConfigurationResourceType>

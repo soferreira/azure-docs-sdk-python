@@ -1,0 +1,37 @@
+### YamlMime:PythonClass
+uid: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller
+name: AsyncTextAnalysisLROPoller
+fullName: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller
+module: azure.ai.textanalytics.aio
+inheritances:
+- typing.Protocol
+- collections.abc.Awaitable
+- typing.Generic
+summary: Implements a protocol which returned poller objects are consistent with.
+constructor:
+  syntax: AsyncTextAnalysisLROPoller(*args, **kwargs)
+methods:
+- uid: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller.cancel
+  name: cancel
+  signature: async cancel() -> None
+- uid: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller.continuation_token
+  name: continuation_token
+  signature: continuation_token() -> str
+- uid: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller.done
+  name: done
+  signature: done() -> bool
+- uid: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller.polling_method
+  name: polling_method
+  signature: polling_method() -> azure.core.polling._async_poller.AsyncPollingMethod[PollingReturnType]
+- uid: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller.result
+  name: result
+  signature: async result() -> PollingReturnType
+- uid: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller.status
+  name: status
+  signature: status() -> str
+- uid: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller.wait
+  name: wait
+  signature: async wait() -> None
+attributes:
+- uid: azure.ai.textanalytics.aio.AsyncTextAnalysisLROPoller.details
+  name: details

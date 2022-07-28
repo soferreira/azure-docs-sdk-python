@@ -13,11 +13,9 @@ summary: 'EventGrid Topic.
 
   All required parameters must be populated in order to send to Azure.'
 constructor:
-  syntax: 'Topic(*, location: str, tags: Optional[Dict[str, str]] = None, sku: Optional[azure.mgmt.eventgrid.models._models_py3.ResourceSku]
-    = None, identity: Optional[azure.mgmt.eventgrid.models._models_py3.IdentityInfo]
-    = None, kind: Optional[Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.ResourceKind]]
-    = ''Azure'', extended_location: Optional[azure.mgmt.eventgrid.models._models_py3.ExtendedLocation]
-    = None, input_schema: Optional[Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.InputSchema]]
+  syntax: 'Topic(*, location: str, tags: Optional[Dict[str, str]] = None, identity:
+    Optional[azure.mgmt.eventgrid.models._models_py3.IdentityInfo] = None, input_schema:
+    Optional[Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.InputSchema]]
     = None, input_schema_mapping: Optional[azure.mgmt.eventgrid.models._models_py3.InputSchemaMapping]
     = None, public_network_access: Optional[Union[str, azure.mgmt.eventgrid.models._event_grid_management_client_enums.PublicNetworkAccess]]
     = None, inbound_ip_rules: Optional[List[azure.mgmt.eventgrid.models._models_py3.InboundIpRule]]
@@ -45,26 +43,10 @@ variables:
   name: tags
   types:
   - <xref:dict>[<xref:str>, <xref:str>]
-- description: The Sku pricing tier for the topic.
-  name: sku
-  types:
-  - <xref:azure.mgmt.eventgrid.models.ResourceSku>
 - description: Identity information for the resource.
   name: identity
   types:
   - <xref:azure.mgmt.eventgrid.models.IdentityInfo>
-- description: 'Kind of the resource. Possible values include: "Azure", "AzureArc".
-    Default value:
-
-    "Azure".'
-  name: kind
-  types:
-  - <xref:str>
-  - <xref:azure.mgmt.eventgrid.models.ResourceKind>
-- description: Extended location of the resource.
-  name: extended_location
-  types:
-  - <xref:azure.mgmt.eventgrid.models.ExtendedLocation>
 - description: The system metadata relating to Topic resource.
   name: system_data
   types:

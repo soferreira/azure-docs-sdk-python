@@ -117,10 +117,10 @@ methods:
     types:
     - <xref:str>
   - name: key_value_parameters
-    description: The parameters for creating a key-value.
+    description: The parameters for creating a key-value. Default value is None.
     isRequired: true
     types:
-    - <xref:app_configuration_management_client.models.KeyValue>
+    - <xref:azure.mgmt.appconfiguration.models.KeyValue>
   - name: cls
     description: A custom type or function that will be passed the direct response
     types:
@@ -128,7 +128,7 @@ methods:
   return:
     description: KeyValue, or the result of cls(response)
     types:
-    - <xref:app_configuration_management_client.models.KeyValue>
+    - <xref:azure.mgmt.appconfiguration.models.KeyValue>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appconfiguration.aio.operations.KeyValuesOperations.get
@@ -164,7 +164,7 @@ methods:
   return:
     description: KeyValue, or the result of cls(response)
     types:
-    - <xref:app_configuration_management_client.models.KeyValue>
+    - <xref:azure.mgmt.appconfiguration.models.KeyValue>
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.appconfiguration.aio.operations.KeyValuesOperations.list_by_configuration_store
@@ -195,7 +195,7 @@ methods:
       element will include a skipToken parameter that specifies a starting point to
       use for
 
-      subsequent calls.'
+      subsequent calls. Default value is None.'
     isRequired: true
     types:
     - <xref:str>
@@ -207,7 +207,7 @@ methods:
     description: An iterator like instance of either KeyValueListResult or the result
       of cls(response)
     types:
-    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:app_configuration_management_client.models.KeyValueListResult>]
+    - <xref:azure.core.async_paging.AsyncItemPaged>[<xref:azure.mgmt.appconfiguration.models.KeyValueListResult>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 attributes:

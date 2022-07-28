@@ -23,7 +23,7 @@ variables:
 - description: The display information for the configuration store operation.
   name: display
   types:
-  - <xref:app_configuration_management_client.models.OperationDefinitionDisplay>
+  - <xref:azure.mgmt.appconfiguration.models.OperationDefinitionDisplay>
 - description: Origin of the operation.
   name: origin
   types:
@@ -31,4 +31,4 @@ variables:
 - description: Properties of the operation.
   name: properties
   types:
-  - <xref:app_configuration_management_client.models.OperationProperties>
+  - <xref:azure.mgmt.appconfiguration.models.OperationProperties>

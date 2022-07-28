@@ -50,21 +50,22 @@ constructor:
       *UnicodeCodePoint*, the Python encoding, is the default. To override the Python
       default,
 
-      you can also pass in *Utf16CodeUnit* or TextElement_v8`. For additional information
+      you can also pass in *Utf16CodeUnit* or *TextElement_v8*. For additional information
 
       see [https://aka.ms/text-analytics-offsets](https://aka.ms/text-analytics-offsets)'
     types:
     - <xref:str>
   - name: disable_service_logs
-    description: 'Defaults to true, meaning that Text Analytics will not log your
+    description: 'Defaults to true, meaning that the Language service will not log
+      your
 
-      input text on the service side for troubleshooting. If set to False, Text Analytics
-      logs your
+      input text on the service side for troubleshooting. If set to False, the Language
+      service logs your
 
       input text for 48 hours, solely to allow for troubleshooting issues in providing
       you with
 
-      the Text Analytics natural language processing functions. Please see
+      the service''s natural language processing functions. Please see
 
       Cognitive Services Compliance and Privacy notes at [https://aka.ms/cs-compliance](https://aka.ms/cs-compliance)
       for
@@ -103,21 +104,21 @@ variables:
     *UnicodeCodePoint*, the Python encoding, is the default. To override the Python
     default,
 
-    you can also pass in *Utf16CodeUnit* or TextElement_v8`. For additional information
+    you can also pass in *Utf16CodeUnit* or *TextElement_v8*. For additional information
 
     see [https://aka.ms/text-analytics-offsets](https://aka.ms/text-analytics-offsets)'
   name: string_index_type
   types:
   - <xref:str>
-- description: 'Defaults to true, meaning that Text Analytics will not log your
+- description: 'Defaults to true, meaning that the Language service will not log your
 
-    input text on the service side for troubleshooting. If set to False, Text Analytics
-    logs your
+    input text on the service side for troubleshooting. If set to False, the Language
+    service logs your
 
     input text for 48 hours, solely to allow for troubleshooting issues in providing
     you with
 
-    the Text Analytics natural language processing functions. Please see
+    the service''s natural language processing functions. Please see
 
     Cognitive Services Compliance and Privacy notes at [https://aka.ms/cs-compliance](https://aka.ms/cs-compliance)
     for

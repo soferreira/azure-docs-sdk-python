@@ -13,4 +13,4 @@ variables:
 - description: Service specifications of the operation.
   name: service_specification
   types:
-  - <xref:app_configuration_management_client.models.ServiceSpecification>
+  - <xref:azure.mgmt.appconfiguration.models.ServiceSpecification>

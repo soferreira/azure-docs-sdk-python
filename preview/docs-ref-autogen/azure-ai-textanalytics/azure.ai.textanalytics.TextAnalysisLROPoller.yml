@@ -1,0 +1,53 @@
+### YamlMime:PythonClass
+uid: azure.ai.textanalytics.TextAnalysisLROPoller
+name: TextAnalysisLROPoller
+fullName: azure.ai.textanalytics.TextAnalysisLROPoller
+module: azure.ai.textanalytics
+inheritances:
+- typing.Protocol
+summary: Implements a protocol which returned poller objects are consistent with.
+constructor:
+  syntax: TextAnalysisLROPoller(*args, **kwargs)
+methods:
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.add_done_callback
+  name: add_done_callback
+  signature: 'add_done_callback(func: Callable) -> None'
+  parameters:
+  - name: func
+    isRequired: true
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.cancel
+  name: cancel
+  signature: cancel() -> None
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.continuation_token
+  name: continuation_token
+  signature: continuation_token() -> str
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.done
+  name: done
+  signature: done() -> bool
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.polling_method
+  name: polling_method
+  signature: polling_method() -> azure.core.polling._poller.PollingMethod[PollingReturnType]
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.remove_done_callback
+  name: remove_done_callback
+  signature: 'remove_done_callback(func: Callable) -> None'
+  parameters:
+  - name: func
+    isRequired: true
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.result
+  name: result
+  signature: 'result(timeout: Optional[int] = None) -> PollingReturnType'
+  parameters:
+  - name: timeout
+    defaultValue: None
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.status
+  name: status
+  signature: status() -> str
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.wait
+  name: wait
+  signature: 'wait(timeout: Optional[float] = None) -> None'
+  parameters:
+  - name: timeout
+    defaultValue: None
+attributes:
+- uid: azure.ai.textanalytics.TextAnalysisLROPoller.details
+  name: details

@@ -53,8 +53,8 @@ variables:
   name: documents_in_progress_count
   types:
   - <xref:int>
-- description: Number of documents that have not yet started being translated.
-  name: documents_not_yet_started_count
+- description: Number of documents that have not started being translated.
+  name: documents_not_started_count
   types:
   - <xref:int>
 - description: Number of documents that were canceled for translation.

@@ -13,11 +13,9 @@ summary: 'Parameters to create and update Cosmos DB userDefinedFunction.
 
   All required parameters must be populated in order to send to Azure.'
 constructor:
-  syntax: 'SqlUserDefinedFunctionCreateUpdateParameters(*, resource: azure.mgmt.cosmosdb.models._models_py3.SqlUserDefinedFunctionResource,
-    location: Optional[str] = None, tags: Optional[Dict[str, str]] = None, identity:
-    Optional[azure.mgmt.cosmosdb.models._models_py3.ManagedServiceIdentity] = None,
-    options: Optional[azure.mgmt.cosmosdb.models._models_py3.CreateUpdateOptions]
-    = None, **kwargs)'
+  syntax: 'SqlUserDefinedFunctionCreateUpdateParameters(*, resource: _models.SqlUserDefinedFunctionResource,
+    location: Optional[str] = None, tags: Optional[Dict[str, str]] = None, options:
+    Optional[_models.CreateUpdateOptions] = None, **kwargs)'
 variables:
 - description: The unique resource identifier of the ARM resource.
   name: id
@@ -54,10 +52,6 @@ variables:
   name: tags
   types:
   - <xref:dict>[<xref:str>, <xref:str>]
-- description: Identity for the resource.
-  name: identity
-  types:
-  - <xref:azure.mgmt.cosmosdb.models.ManagedServiceIdentity>
 - description: Required. The standard JSON format of a userDefinedFunction.
   name: resource
   types:

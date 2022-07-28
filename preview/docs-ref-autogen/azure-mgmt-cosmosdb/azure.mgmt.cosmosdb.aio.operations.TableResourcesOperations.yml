@@ -5,31 +5,11 @@ fullName: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations
 module: azure.mgmt.cosmosdb.aio.operations
 inheritances:
 - builtins.object
-summary: 'TableResourcesOperations async operations.
-
-
-  You should not instantiate this class directly. Instead, you should create a Client
-  instance that
-
-  instantiates it for you and attaches it as an attribute.'
+summary: "> [!WARNING]\n> DO NOT instantiate this class directly.\n>\n> \n>\n> Instead,\
+  \ you should access the following operations through\n>\n> <xref:azure.mgmt.cosmosdb.aio.CosmosDBManagementClient>'s\n\
+  >\n> <xref:table_resources> attribute.\n>"
 constructor:
-  syntax: TableResourcesOperations(client, config, serializer, deserializer)
-  parameters:
-  - name: client
-    description: Client for service requests.
-    isRequired: true
-  - name: config
-    description: Configuration of service client.
-    isRequired: true
-  - name: serializer
-    description: An object model serializer.
-    isRequired: true
-  - name: deserializer
-    description: An object model deserializer.
-    isRequired: true
-variables:
-- description: Alias to model classes used in this operation group.
-  name: models
+  syntax: TableResourcesOperations(*args, **kwargs)
 methods:
 - uid: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations.begin_create_update_table
   name: begin_create_update_table
@@ -253,67 +233,6 @@ methods:
       result of cls(response)'
     types:
     - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.ThroughputSettingsGetResults>]
-  exceptions:
-  - type: azure.core.exceptions.HttpResponseError
-- uid: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations.begin_retrieve_continuous_backup_information
-  name: begin_retrieve_continuous_backup_information
-  summary: Retrieves continuous backup information for a table.
-  signature: 'async begin_retrieve_continuous_backup_information(resource_group_name:
-    str, account_name: str, table_name: str, location: azure.mgmt.cosmosdb.models._models_py3.ContinuousBackupRestoreLocation,
-    **kwargs: Any) -> azure.core.polling._async_poller.AsyncLROPoller[azure.mgmt.cosmosdb.models._models_py3.BackupInformation]'
-  parameters:
-  - name: resource_group_name
-    description: The name of the resource group. The name is case insensitive.
-    isRequired: true
-    types:
-    - <xref:str>
-  - name: account_name
-    description: Cosmos DB database account name.
-    isRequired: true
-    types:
-    - <xref:str>
-  - name: table_name
-    description: Cosmos DB table name.
-    isRequired: true
-    types:
-    - <xref:str>
-  - name: location
-    description: The name of the continuous backup restore location.
-    isRequired: true
-    types:
-    - <xref:azure.mgmt.cosmosdb.models.ContinuousBackupRestoreLocation>
-  - name: cls
-    description: A custom type or function that will be passed the direct response
-    types:
-    - <xref:callable>
-  - name: continuation_token
-    description: A continuation token to restart a poller from a saved state.
-    types:
-    - <xref:str>
-  - name: polling
-    description: 'By default, your polling method will be AsyncARMPolling. Pass in
-      False for
-
-      this operation to not poll, or pass in your own initialized polling object for
-      a personal
-
-      polling strategy.'
-    types:
-    - <xref:bool>
-    - <xref:azure.core.polling.AsyncPollingMethod>
-  - name: polling_interval
-    description: 'Default waiting time between two polls for LRO operations if no
-
-      Retry-After header is present.'
-    types:
-    - <xref:int>
-  return:
-    description: 'An instance of AsyncLROPoller that returns either BackupInformation
-      or the result of
-
-      cls(response)'
-    types:
-    - <xref:azure.core.polling.AsyncLROPoller>[<xref:azure.mgmt.cosmosdb.models.BackupInformation>]
   exceptions:
   - type: azure.core.exceptions.HttpResponseError
 - uid: azure.mgmt.cosmosdb.aio.operations.TableResourcesOperations.begin_update_table_throughput

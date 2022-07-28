@@ -13,4 +13,4 @@ variables:
 - description: Key vault properties.
   name: key_vault_properties
   types:
-  - <xref:app_configuration_management_client.models.KeyVaultProperties>
+  - <xref:azure.mgmt.appconfiguration.models.KeyVaultProperties>

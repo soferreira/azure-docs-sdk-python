@@ -76,7 +76,9 @@ variables:
   - <xref:datetime.datetime>
 - description: 'Provisioning state of the partner topic. Possible values include:
 
-    "Creating", "Updating", "Deleting", "Succeeded", "Canceled", "Failed".'
+    "Creating", "Updating", "Deleting", "Succeeded", "Canceled", "Failed",
+
+    "IdleDueToMirroredChannelResourceDeletion".'
   name: provisioning_state
   types:
   - <xref:str>

@@ -51,22 +51,22 @@ variables:
 - description: The managed identity information, if configured.
   name: identity
   types:
-  - <xref:app_configuration_management_client.models.ResourceIdentity>
+  - <xref:azure.mgmt.appconfiguration.models.ResourceIdentity>
 - description: Required. The sku of the configuration store.
   name: sku
   types:
-  - <xref:app_configuration_management_client.models.Sku>
+  - <xref:azure.mgmt.appconfiguration.models.Sku>
 - description: Resource system metadata.
   name: system_data
   types:
-  - <xref:app_configuration_management_client.models.SystemData>
+  - <xref:azure.mgmt.appconfiguration.models.SystemData>
 - description: 'The provisioning state of the configuration store. Possible values
 
     include: "Creating", "Updating", "Deleting", "Succeeded", "Failed", "Canceled".'
   name: provisioning_state
   types:
   - <xref:str>
-  - <xref:app_configuration_management_client.models.ProvisioningState>
+  - <xref:azure.mgmt.appconfiguration.models.ProvisioningState>
 - description: The creation date of configuration store.
   name: creation_date
   types:
@@ -78,13 +78,13 @@ variables:
 - description: The encryption settings of the configuration store.
   name: encryption
   types:
-  - <xref:app_configuration_management_client.models.EncryptionProperties>
+  - <xref:azure.mgmt.appconfiguration.models.EncryptionProperties>
 - description: 'The list of private endpoint connections that are set up
 
     for this resource.'
   name: private_endpoint_connections
   types:
-  - <xref:list>[<xref:app_configuration_management_client.models.PrivateEndpointConnectionReference>]
+  - <xref:list>[<xref:azure.mgmt.appconfiguration.models.PrivateEndpointConnectionReference>]
 - description: 'Control permission for data plane traffic coming from public
 
     networks while private endpoint is enabled. Possible values include: "Enabled",
@@ -92,7 +92,7 @@ variables:
   name: public_network_access
   types:
   - <xref:str>
-  - <xref:app_configuration_management_client.models.PublicNetworkAccess>
+  - <xref:azure.mgmt.appconfiguration.models.PublicNetworkAccess>
 - description: Disables all authentication methods other than AAD authentication.
   name: disable_local_auth
   types:
@@ -115,4 +115,4 @@ variables:
   name: create_mode
   types:
   - <xref:str>
-  - <xref:app_configuration_management_client.models.CreateMode>
+  - <xref:azure.mgmt.appconfiguration.models.CreateMode>

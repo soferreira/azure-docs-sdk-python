@@ -32,14 +32,14 @@ variables:
   name: provisioning_state
   types:
   - <xref:str>
-  - <xref:app_configuration_management_client.models.ProvisioningState>
+  - <xref:azure.mgmt.appconfiguration.models.ProvisioningState>
 - description: The resource of private endpoint.
   name: private_endpoint
   types:
-  - <xref:app_configuration_management_client.models.PrivateEndpoint>
+  - <xref:azure.mgmt.appconfiguration.models.PrivateEndpoint>
 - description: 'A collection of information about the state of the
 
     connection between service consumer and provider.'
   name: private_link_service_connection_state
   types:
-  - <xref:app_configuration_management_client.models.PrivateLinkServiceConnectionState>
+  - <xref:azure.mgmt.appconfiguration.models.PrivateLinkServiceConnectionState>
