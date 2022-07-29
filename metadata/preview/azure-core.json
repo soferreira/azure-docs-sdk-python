@@ -1,7 +1,7 @@
 {
   "Name": "azure-core",
-  "Version": "1.25.0a20220728011",
-  "DevVersion": "1.25.0a20220728011",
+  "Version": "1.25.0a20220729003",
+  "DevVersion": "1.25.0a20220729003",
   "DirectoryPath": "sdk/core/azure-core",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/azure-core/README.md",
