@@ -1,7 +1,7 @@
 {
   "Name": "azure-template",
-  "Version": "0.1.0a20220729001",
-  "DevVersion": "0.1.0a20220729001",
+  "Version": "0.1.0a20220729005",
+  "DevVersion": "0.1.0a20220729005",
   "DirectoryPath": "sdk/template/azure-template",
   "ServiceDirectory": "template",
   "ReadMePath": "sdk/template/azure-template/README.md",
