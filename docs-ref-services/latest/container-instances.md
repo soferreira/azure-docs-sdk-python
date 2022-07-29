@@ -1,12 +1,12 @@
 ---
 ms.author: samkreter
-title: Azure Container Instances SDK for Python
-ms.service: containerinstances
-description: Reference for Azure Container Instances SDK for Python
-ms.data: 07/28/2022
+ms.data: 07/29/2022
 ms.topic: reference
+title: Azure Container Instances SDK for Python
+description: Reference for Azure Container Instances SDK for Python
 ms.devlang: python
 author: samkreter
+ms.service: containerinstances
 ---
 # Azure Container Instances SDK for Python - latest
 

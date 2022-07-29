@@ -1,12 +1,12 @@
 ---
 ms.author: lmazuel
-title: Azure Extended Location SDK for Python
-ms.service: extendedlocation
-description: Reference for Azure Extended Location SDK for Python
-ms.data: 07/28/2022
+ms.data: 07/29/2022
 ms.topic: reference
+title: Azure Extended Location SDK for Python
+description: Reference for Azure Extended Location SDK for Python
 ms.devlang: python
 author: lmazuel
+ms.service: extendedlocation
 ---
 # Azure Extended Location SDK for Python - latest
 

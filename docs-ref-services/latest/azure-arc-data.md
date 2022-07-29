@@ -1,12 +1,12 @@
 ---
 ms.author: lmazuel
-title: Azure Azure Arc Data SDK for Python
-ms.service: azurearcdata
-description: Reference for Azure Azure Arc Data SDK for Python
-ms.data: 07/28/2022
+ms.data: 07/29/2022
 ms.topic: reference
+title: Azure Azure Arc Data SDK for Python
+description: Reference for Azure Azure Arc Data SDK for Python
 ms.devlang: python
 author: lmazuel
+ms.service: azurearcdata
 ---
 # Azure Azure Arc Data SDK for Python - latest
 

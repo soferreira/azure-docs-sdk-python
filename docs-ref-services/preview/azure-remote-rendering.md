@@ -1,12 +1,12 @@
 ---
 ms.author: lmazuel
-title: Azure Azure Remote Rendering SDK for Python
-ms.service: azureremoterendering
-description: Reference for Azure Azure Remote Rendering SDK for Python
-ms.data: 07/28/2022
+ms.data: 07/29/2022
 ms.topic: reference
+title: Azure Azure Remote Rendering SDK for Python
+description: Reference for Azure Azure Remote Rendering SDK for Python
 ms.devlang: python
 author: lmazuel
+ms.service: azureremoterendering
 ---
 # Azure Azure Remote Rendering SDK for Python - preview
 

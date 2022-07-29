@@ -1,12 +1,12 @@
 ---
 ms.author: lmazuel
-title: Azure Front Door SDK for Python
-ms.service: frontdoor
-description: Reference for Azure Front Door SDK for Python
-ms.data: 07/28/2022
+ms.data: 07/29/2022
 ms.topic: reference
+title: Azure Front Door SDK for Python
+description: Reference for Azure Front Door SDK for Python
 ms.devlang: python
 author: lmazuel
+ms.service: frontdoor
 ---
 # Azure Front Door SDK for Python - latest
 

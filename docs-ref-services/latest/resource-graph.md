@@ -1,12 +1,12 @@
 ---
 ms.author: lmazuel
-title: Azure Resource Graph SDK for Python
-ms.service: resourcegraph
-description: Reference for Azure Resource Graph SDK for Python
-ms.data: 07/28/2022
+ms.data: 07/29/2022
 ms.topic: reference
+title: Azure Resource Graph SDK for Python
+description: Reference for Azure Resource Graph SDK for Python
 ms.devlang: python
 author: lmazuel
+ms.service: resourcegraph
 ---
 # Azure Resource Graph SDK for Python - latest
 

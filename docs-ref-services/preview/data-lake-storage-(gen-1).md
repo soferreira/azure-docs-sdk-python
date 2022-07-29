@@ -1,19 +1,18 @@
 ---
-title: Azure Data Lake Store libraries for python
-description: Reference for Azure Data Lake Store libraries for python
-keywords: Azure, python, SDK, API, Data Lake Store
-author: sptramer
-ms.author: sttramer
-manager: douge
-
-ms.date: 07/10/2017
+ms.author: ro-joowan
+ms.data: 07/29/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
+title: Azure Data Lake Storage (Gen 1) SDK for Python
+description: Reference for Azure Data Lake Storage (Gen 1) SDK for Python
 ms.devlang: python
-ms.service: multiple
+author: ro-joowan
+ms.service: datalakestorage(gen1)
+ms.technology: azure
+manager: douge
+keywords: Azure, python, SDK, API, Data Lake Store
+ms.prod: azure
+ms.date: 07/10/2017
 ---
-
 # Azure Data Lake Store libraries for python
 
 ## Install the libraries
