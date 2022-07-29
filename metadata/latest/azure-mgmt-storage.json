@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-storage",
   "Version": "20.0.0",
-  "DevVersion": null,
+  "DevVersion": "20.0.0",
   "DirectoryPath": "sdk/storage/azure-mgmt-storage",
   "ServiceDirectory": "storage",
   "ReadMePath": "sdk/storage/azure-mgmt-storage/README.md",
