@@ -1,7 +1,7 @@
 {
   "Name": "azure-mgmt-core",
-  "Version": "1.3.1a20220801002",
-  "DevVersion": "1.3.1a20220801002",
+  "Version": "1.3.1a20220801003",
+  "DevVersion": "1.3.1a20220801003",
   "DirectoryPath": "sdk/core/azure-mgmt-core",
   "ServiceDirectory": "core",
   "ReadMePath": "sdk/core/azure-mgmt-core/README.md",
