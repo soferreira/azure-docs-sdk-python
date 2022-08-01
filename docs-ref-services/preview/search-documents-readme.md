@@ -1,19 +1,17 @@
 ---
 title: Azure Cognitive Search client library for Python
 keywords: Azure, python, SDK, API, azure-search-documents, search
-author: kashifkhan
-ms.author: kashifkhan
-ms.date: 03/08/2022
+author: rakshith91
+ms.author: sabhyrav
+ms.date: 08/01/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: python
 ms.service: search
 ---
-# Azure Cognitive Search client library for Python - version 11.3.0b8 
+# Azure Cognitive Search client library for Python - version 11.3.0a20220801001 
 
 
-[Azure Cognitive Search](https://docs.microsoft.com/azure/search/) is a
+[Azure Cognitive Search](/azure/search/) is a
 search-as-a-service cloud solution that gives developers APIs and tools
 for adding a rich search experience over private, heterogeneous content
 in web, mobile, and enterprise applications.
@@ -47,11 +45,11 @@ Use the Azure.Search.Documents client library to:
 * Create and manage analyzers for advanced text analysis or multi-lingual content.
 * Optimize results through scoring profiles to factor in business logic or freshness.
 
-[Source code](https://github.com/Azure/azure-sdk-for-python/tree/azure-search-documents_11.3.0b8/sdk/search/azure-search-documents) |
+[Source code](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/search/azure-search-documents) |
 [Package (PyPI)](https://pypi.org/project/azure-search-documents/) |
 [API reference documentation](https://azuresdkdocs.blob.core.windows.net/$web/python/azure-search-documents/latest/index.html) |
-[Product documentation](https://docs.microsoft.com/azure/search/search-what-is-azure-search) |
-[Samples](https://github.com/Azure/azure-sdk-for-python/blob/azure-search-documents_11.3.0b8/sdk/search/azure-search-documents/samples)
+[Product documentation](/azure/search/search-what-is-azure-search) |
+[Samples](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/search/azure-search-documents/samples)
 
 ## _Disclaimer_
 
@@ -79,14 +77,14 @@ To create a new search service, you can use the [Azure portal][create_search_ser
 az search service create --name <mysearch> --resource-group <mysearch-rg> --sku free --location westus
 ```
 
-See [choosing a pricing tier](https://docs.microsoft.com/azure/search/search-sku-tier)
+See [choosing a pricing tier](/azure/search/search-sku-tier)
  for more information about available options.
 
 ### Authenticate the client
 
 All requests to a search service need an api-key that was generated specifically
 for your service. [The api-key is the sole mechanism for authenticating access to
-your search service endpoint.](https://docs.microsoft.com/azure/search/search-security-api-keys)
+your search service endpoint.](/azure/search/search-security-api-keys)
 You can obtain your api-key from the
 [Azure portal](https://portal.azure.com/) or via the Azure CLI:
 
@@ -131,25 +129,25 @@ indexes and database tables.)_  The Azure.Search.Documents client library
 exposes operations on these resources through two main client types.
 
 * `SearchClient` helps with:
-  * [Searching](https://docs.microsoft.com/azure/search/search-lucene-query-architecture)
+  * [Searching](/azure/search/search-lucene-query-architecture)
     your indexed documents using
-    [rich queries](https://docs.microsoft.com/azure/search/search-query-overview)
-    and [powerful data shaping](https://docs.microsoft.com/azure/search/search-filters)
-  * [Autocompleting](https://docs.microsoft.com/rest/api/searchservice/autocomplete)
+    [rich queries](/azure/search/search-query-overview)
+    and [powerful data shaping](/azure/search/search-filters)
+  * [Autocompleting](/rest/api/searchservice/autocomplete)
     partially typed search terms based on documents in the index
-  * [Suggesting](https://docs.microsoft.com/rest/api/searchservice/suggestions)
+  * [Suggesting](/rest/api/searchservice/suggestions)
     the most likely matching text in documents as a user types
-  * [Adding, Updating or Deleting Documents](https://docs.microsoft.com/rest/api/searchservice/addupdate-or-delete-documents)
+  * [Adding, Updating or Deleting Documents](/rest/api/searchservice/addupdate-or-delete-documents)
     documents from an index
 
 * `SearchIndexClient` allows you to:
-  * [Create, delete, update, or configure a search index](https://docs.microsoft.com/rest/api/searchservice/index-operations)
-  * [Declare custom synonym maps to expand or rewrite queries](https://docs.microsoft.com/rest/api/searchservice/synonym-map-operations)
+  * [Create, delete, update, or configure a search index](/rest/api/searchservice/index-operations)
+  * [Declare custom synonym maps to expand or rewrite queries](/rest/api/searchservice/synonym-map-operations)
   * Most of the `SearchServiceClient` functionality is not yet available in our current preview
 
 * `SearchIndexerClient` allows you to:
-  * [Start indexers to automatically crawl data sources](https://docs.microsoft.com/rest/api/searchservice/indexer-operations)
-  * [Define AI powered Skillsets to transform and enrich your data](https://docs.microsoft.com/rest/api/searchservice/skillset-operations)
+  * [Start indexers to automatically crawl data sources](/rest/api/searchservice/indexer-operations)
+  * [Define AI powered Skillsets to transform and enrich your data](/rest/api/searchservice/skillset-operations)
 
 _The `Azure.Search.Documents` client library (v1) is a brand new offering for
 Python developers who want to use search technology in their applications.  There
@@ -160,8 +158,8 @@ exploring online resources._
 ## Examples
 
 The following examples all use a simple [Hotel data set](https://github.com/Azure-Samples/azure-search-sample-data/blob/master/README.md)
-that you can [import into your own index from the Azure portal.](https://docs.microsoft.com/azure/search/search-get-started-portal#step-1---start-the-import-data-wizard-and-create-a-data-source)
-These are just a few of the basics - please [check out our Samples](https://github.com/Azure/azure-sdk-for-python/blob/azure-search-documents_11.3.0b8/sdk/search/azure-search-documents/samples) for
+that you can [import into your own index from the Azure portal.](/azure/search/search-get-started-portal#step-1---start-the-import-data-wizard-and-create-a-data-source)
+These are just a few of the basics - please [check out our Samples](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/search/azure-search-documents/samples) for
 much more.
 
 
@@ -261,7 +259,7 @@ result = client.create_index(index)
 
 You can `Upload`, `Merge`, `MergeOrUpload`, and `Delete` multiple documents from
 an index in a single batched request.  There are
-[a few special rules for merging](https://docs.microsoft.com/rest/api/searchservice/addupdate-or-delete-documents#document-actions)
+[a few special rules for merging](/rest/api/searchservice/addupdate-or-delete-documents#document-actions)
 to be aware of.
 
 ```python
@@ -320,7 +318,7 @@ print("    Category: {}".format(result["Category"]))
 This library includes a complete async API. To use it, you must
 first install an async transport, such as [aiohttp](https://pypi.org/project/aiohttp/).
 See
-[azure-core documentation](https://github.com/Azure/azure-sdk-for-python/blob/azure-search-documents_11.3.0b8/sdk/core/azure-core/README.md#transport)
+[azure-core documentation](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/core/azure-core/README.md#transport)
 for more information.
 
 
@@ -380,9 +378,9 @@ result =  client.search(search_text="spa", logging_enable=True)
 
 ## Next steps
 
-* Go further with Azure.Search.Documents and our [https://github.com/Azure/azure-sdk-for-python/blob/azure-search-documents_11.3.0b8/sdk/search/azure-search-documents/samples](https://github.com/Azure/azure-sdk-for-python/blob/azure-search-documents_11.3.0b8/sdk/search/azure-search-documents/samples)
+* Go further with Azure.Search.Documents and our [https://github.com/Azure/azure-sdk-for-python/blob/master/sdk/search/azure-search-documents/samples](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/search/azure-search-documents/samples)
 * Watch a [demo or deep dive video](https://azure.microsoft.com/resources/videos/index/?services=search)
-* Read more about the [Azure Cognitive Search service](https://docs.microsoft.com/azure/search/search-what-is-azure-search)
+* Read more about the [Azure Cognitive Search service](/azure/search/search-what-is-azure-search)
 
 ## Contributing
 
@@ -409,16 +407,16 @@ additional questions or comments.
 
 ![Impressions](https://azure-sdk-impressions.azurewebsites.net/api/impressions/azure-sdk-for-python%2Fsdk%2Fsearch%2Fazure-search-documents%2FREADME.png)
 
-[azure_cli]: https://docs.microsoft.com/cli/azure
-[azure_core]: https://github.com/Azure/azure-sdk-for-python/blob/azure-search-documents_11.3.0b8/sdk/core/azure-core/README.md
+[azure_cli]: /cli/azure
+[azure_core]: https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/core/azure-core/README.md
 [azure_sub]: https://azure.microsoft.com/free/
-[search_resource]: https://docs.microsoft.com/azure/search/search-create-service-portal
+[search_resource]: /azure/search/search-create-service-portal
 [azure_portal]: https://portal.azure.com
 
-[create_search_service_docs]: https://docs.microsoft.com/azure/search/search-create-service-portal
-[create_search_service_ps]: https://docs.microsoft.com/azure/search/search-manage-powershell#create-or-delete-a-service
-[create_search_service_cli]: https://docs.microsoft.com/cli/azure/search/service?view=azure-cli-latest#az-search-service-create
-[search_contrib]: https://github.com/Azure/azure-sdk-for-python/blob/azure-search-documents_11.3.0b8/CONTRIBUTING.md
+[create_search_service_docs]: /azure/search/search-create-service-portal
+[create_search_service_ps]: /azure/search/search-manage-powershell#create-or-delete-a-service
+[create_search_service_cli]: /cli/azure/search/service?view=azure-cli-latest#az-search-service-create
+[search_contrib]: https://github.com/Azure/azure-sdk-for-python/blob/main/CONTRIBUTING.md
 [python_logging]: https://docs.python.org/3.5/library/logging.html
 
 [cla]: https://cla.microsoft.com
