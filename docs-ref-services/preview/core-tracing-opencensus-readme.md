@@ -1,19 +1,16 @@
 ---
 title: Azure Core Tracing OpenCensus client library for Python
 keywords: Azure, python, SDK, API, azure-core-tracing-opencensus, core
-author: ramya-rao-a
-ms.author: ramyar
-ms.date: 07/01/2021
+author: rakshith91
+ms.author: sabhyrav
+ms.date: 08/01/2022
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: python
 ms.service: core
 ---
 
 
-
-# Azure Core Tracing OpenCensus client library for Python - version 1.0.0b8 
+# Azure Core Tracing OpenCensus client library for Python - version 1.0.0a20220801002 
 
 
 ## Getting started
@@ -59,7 +56,7 @@ with tracer.span(name="MyApplication") as span:
 
 ## Troubleshooting
 
-This client raises exceptions defined in [Azure Core](https://docs.microsoft.com/python/api/azure-core/azure.core.exceptions?view=azure-python).
+This client raises exceptions defined in [Azure Core](/python/api/azure-core/azure.core.exceptions?view=azure-python).
 
 
 ## Next steps
