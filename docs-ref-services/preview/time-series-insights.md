@@ -1,12 +1,12 @@
 ---
-ms.data: 07/29/2022
-ms.devlang: python
-author: lmazuel
 ms.topic: reference
-ms.service: timeseriesinsights
-description: Reference for Azure Time Series Insights SDK for Python
-ms.author: lmazuel
+ms.devlang: python
 title: Azure Time Series Insights SDK for Python
+ms.data: 08/01/2022
+ms.service: timeseriesinsights
+author: lmazuel
+ms.author: lmazuel
+description: Reference for Azure Time Series Insights SDK for Python
 ---
 # Azure Time Series Insights SDK for Python - preview
 

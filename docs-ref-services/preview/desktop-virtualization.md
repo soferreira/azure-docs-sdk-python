@@ -1,12 +1,12 @@
 ---
-ms.data: 07/29/2022
-ms.devlang: python
-author: lmazuel
 ms.topic: reference
-ms.service: desktopvirtualization
-description: Reference for Azure Desktop Virtualization SDK for Python
-ms.author: lmazuel
+ms.devlang: python
 title: Azure Desktop Virtualization SDK for Python
+ms.data: 08/01/2022
+ms.service: desktopvirtualization
+author: lmazuel
+ms.author: lmazuel
+description: Reference for Azure Desktop Virtualization SDK for Python
 ---
 # Azure Desktop Virtualization SDK for Python - preview
 
