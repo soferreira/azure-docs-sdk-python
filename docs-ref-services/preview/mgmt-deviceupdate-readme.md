@@ -3,7 +3,7 @@ title:
 keywords: Azure, python, SDK, API, azure-mgmt-deviceupdate, deviceupdate
 author: dpokluda
 ms.author: dpokluda
-ms.date: 05/26/2022
+ms.date: 08/02/2022
 ms.topic: reference
 ms.devlang: python
 ms.service: deviceupdate
